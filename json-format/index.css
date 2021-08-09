@@ -6764,10 +6764,10 @@ a.x-a-high:visited {
 .btn.active:focus {
  outline:none !important
 }
-#.mod-sitedesc {
-# background:#fff url(https://static.baidufe.com/blog/static/img/header-bg.jpg) 0 0 repeat;
-# padding:10px
-#}
+/*.mod-sitedesc {
+ background:#fff url(https://static.baidufe.com/blog/static/img/header-bg.jpg) 0 0 repeat;
+ padding:10px
+}*/
 .mod-sitedesc .logo-box {
  float:left
 }
