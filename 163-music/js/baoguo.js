@@ -24,7 +24,7 @@ function loading() {
                 //如果歌曲链接失效则不显示播放按钮
                 if (baoguo['data']['url'] !== null) {
                     $("#music").html('<audio id="player" src="' + baoguo['data']['url'] + '" controls="controls"></audio>');
-                    $('#player_btn').html('<img src="images/play.png">');
+                    $('#player_btn').html('<img src="https://cdn.jsdelivr.net/gh/91xcode/static@master/163-music/images/play.png">');
 
                     fetch('https://v1.hitokoto.cn')
                         .then(response => response.json())
@@ -82,7 +82,7 @@ $('#back').on('click', function() {
 });
 
 function back() {
-    window.location.href = "http://li-feng.xyz"
+    window.location.href = "https://91xcode.github.io/"
 }
 /**
  * 播放音乐
@@ -103,13 +103,13 @@ function is_player() {
             "-webkit-animation": "baoguo infinite 5s linear",
             "animation": "baoguo infinite 5s linear"
         });
-        $('#player_btn').html('<img src="images/pause.png">');
+        $('#player_btn').html('<img src="https://cdn.jsdelivr.net/gh/91xcode/static@master/163-music/images/pause.png">');
     } else {
         /*暂停*/
         player.pause();
         $('title').text(wy_title)
         $("#pic img").removeAttr("style", "");
-        $('#player_btn').html('<img src="images/play.png">');
+        $('#player_btn').html('<img src="https://cdn.jsdelivr.net/gh/91xcode/static@master/163-music/images/play.png">');
     }
 
     //判断是否播放完毕
