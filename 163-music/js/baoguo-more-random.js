@@ -9,7 +9,7 @@ function loading() {
         */
         type: 'GET',
         url: 'https://api.uomg.com/api/rand.music',
-        data: 'sort=抖音榜&format=json',
+        data: 'sort=热歌榜&format=json',
         dataType: 'json',
         success: function(baoguo) {
             if (baoguo['code'] == 1) {
