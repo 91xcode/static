@@ -17,7 +17,7 @@ branch_name = "master"
 
 # https://raw.githubusercontent.com/91xcode/static/master/pic/1.png
 # https://cdn.jsdelivr.net/gh/91xcode/static@master/pic/1.png
-
+# https://cdn.jsdelivr.net/gh/91xcode/static@master/pic/1.png
 
 github = f"https://raw.githubusercontent.com/{username}/{repo_name}/{branch_name}/pic/"
 jsdeliver = f"https://cdn.jsdelivr.net/gh/{username}/{repo_name}@{branch_name}/pic/"
